@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "This is my code for my girl",
+  "homepage": "https://github.com/KingsleyMe-1/ValentineFlower#readme",
+  "bugs": {
+    "url": "https://github.com/KingsleyMe-1/ValentineFlower/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingsleyMe-1/ValentineFlower.git"
+  },
+  "license": "ISC",
+  "author": "Kingsley James J. Digman",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

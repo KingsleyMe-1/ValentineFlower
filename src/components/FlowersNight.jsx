@@ -20,9 +20,9 @@ const FlowersNight = () => {
     <>
       {!showFlowers && (
         <div className="intro">
-          <h1>I have a surprise for you fritzz!</h1>
+          <h1>Surprise to my special person!</h1>
           <button className="intro-button" onClick={() => setShowFlowers(true)} style={{ marginTop: "20px" }}>
-            Click Me
+            Click Here
           </button>
         </div>
       )}

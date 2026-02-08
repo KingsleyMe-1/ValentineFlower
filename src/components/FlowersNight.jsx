@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../styles/FlowersNight.scss";
 
 const FlowersNight = () => {
-  // Remove 'not-loaded' class after mount to trigger animations
+  // Remove 'not-loaded' className after mount to trigger animations
   useEffect(() => {
     const body = document.body;
     body.classList.remove("not-loaded");
@@ -66,6 +66,13 @@ const FlowersNight = () => {
           </div>
         </div>
 
+        <div className="grow-ans" style={{ '--d': '3.2s' }}>
+          <div className="flower__g-long">
+            <div className="flower__g-long__top"></div>
+            <div className="flower__g-long__bottom"></div>
+          </div>
+        </div>
+
         {/* Optional: Grass / extra growth animations */}
         <div className="growing-grass">
           <div className="flower__grass flower__grass--1">
@@ -78,6 +85,7 @@ const FlowersNight = () => {
           </div>
         </div>
 
+        
         <div className="growing-grass">
           <div className="flower__grass flower__grass--2">
             <div className="flower__grass--top"></div>
@@ -86,6 +94,123 @@ const FlowersNight = () => {
               <div key={i} className={`flower__grass__leaf flower__grass__leaf--${i + 1}`}></div>
             ))}
             <div className="flower__grass__overlay"></div>
+          </div>
+        </div>
+
+        <div className="grow-ans" style={{ '--d': '2.8s' }}>
+          <div className="flower__g-right flower__g-right--1">
+            <div className="leaf"></div>
+          </div>
+        </div>
+
+        <div className="grow-ans" style={{ '--d': '3.2s' }}>
+          <div className="flower__g-right flower__g-right--2">
+            <div className="leaf"></div>
+          </div>
+        </div>
+
+        <div className="long-g long-g--0">
+          <div className="grow-ans" style={{ '--d': '3s' }}>
+            <div className="leaf leaf--0"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '2.2s' }}>
+            <div className="leaf leaf--1"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3.4s' }}>
+            <div className="leaf leaf--2"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3.6s' }}>
+            <div className="leaf leaf--3"></div>
+          </div>
+        </div>
+
+        <div className="long-g long-g--1">
+          <div className="grow-ans" style={{ '--d': '3.6s' }}>
+            <div className="leaf leaf--0"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3.8s' }}>
+            <div className="leaf leaf--1"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4s' }}>
+            <div className="leaf leaf--2"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.2s' }}>
+            <div className="leaf leaf--3"></div>
+          </div>
+        </div>
+
+        <div className="long-g long-g--2">
+          <div className="grow-ans" style={{ '--d': '4s' }}>
+            <div className="leaf leaf--0"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.2s' }}>
+            <div className="leaf leaf--1"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.4s' }}>
+            <div className="leaf leaf--2"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.6s' }}>
+            <div className="leaf leaf--3"></div>
+          </div>
+        </div>
+
+        <div className="long-g long-g--3">
+          <div className="grow-ans" style={{ '--d': '4s' }}>
+            <div className="leaf leaf--0"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.2s' }}>
+            <div className="leaf leaf--1"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3s' }}>
+            <div className="leaf leaf--2"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3.6s' }}>
+            <div className="leaf leaf--3"></div>
+          </div>
+        </div>
+
+        <div className="long-g long-g--4">
+          <div className="grow-ans" style={{ '--d': '4s' }}>
+            <div className="leaf leaf--0"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.2s' }}>
+            <div className="leaf leaf--1"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3s' }}>
+            <div className="leaf leaf--2"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3.6s' }}>
+            <div className="leaf leaf--3"></div>
+          </div>
+        </div>
+
+        <div className="long-g long-g--5">
+          <div className="grow-ans" style={{ '--d': '4s' }}>
+            <div className="leaf leaf--0"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.2s' }}>
+            <div className="leaf leaf--1"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3s' }}>
+            <div className="leaf leaf--2"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '3.6s' }}>
+            <div className="leaf leaf--3"></div>
+          </div>
+        </div>
+
+        <div className="long-g long-g--6">
+          <div className="grow-ans" style={{ '--d': '4.2s' }}>
+            <div className="leaf leaf--0"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.4s' }}>
+            <div className="leaf leaf--1"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.6s' }}>
+            <div className="leaf leaf--2"></div>
+          </div>
+          <div className="grow-ans" style={{ '--d': '4.8s' }}>
+            <div className="leaf leaf--3"></div>
           </div>
         </div>
       </div>

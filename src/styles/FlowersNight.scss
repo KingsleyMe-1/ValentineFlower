@@ -499,7 +499,7 @@ body {
     }
 
     &--2 {
-      left: 2vmin;
+      left: -2vmin;
       bottom: 10vmin;
       transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg);
       opacity: 0.8;

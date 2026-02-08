@@ -20,6 +20,15 @@ body {
   perspective: 1000px;
 }
 
+body.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+
 .night {
   position: fixed;
   left: 50%;
@@ -89,6 +98,31 @@ body {
         }
 
         &--2 {
+
+      .intro {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2000;
+        background: linear-gradient(180deg, rgba(0,0,0,0.6), rgba(0,0,0,0.75));
+      }
+
+      .intro-button {
+        background: linear-gradient(180deg,#ff7aa0,#ff4f7a);
+        color: white;
+        border: none;
+        padding: 1.4vmin 3.2vmin;
+        font-size: 3.5vmin;
+        border-radius: 1vmin;
+        box-shadow: 0 0 2vmin rgba(255,80,120,0.18);
+        cursor: pointer;
+        transition: transform 180ms ease, box-shadow 180ms ease, opacity 180ms;
+      }
+
+      .intro-button:hover { transform: translateY(-0.6vmin) scale(1.02); }
+      .intro-button:active { transform: translateY(0) scale(0.99); }
           animation: blooming-leaf-right var(--fl-speed) 1.4s backwards;
         }
 

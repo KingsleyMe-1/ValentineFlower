@@ -1,16 +1,26 @@
-# React + Vite
+# FlowersNight 🌸🌙
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually stunning animated night garden with growing flowers and interactive effects, built with **React.js** and **SCSS**. Click the button on the intro screen to watch the flowers grow and lights animate in a nighttime garden scene.  
 
-Currently, two official plugins are available:
+This project is inspired by [Md Usman Ansari's CodePen](https://codepen.io/mdusmanansari/pen/BamepLe). Full credit goes to the original creator for the animation concept.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![FlowersNight Demo](./demo-screenshot.png)  
+*Replace with a live screenshot or GIF of your animation.*
 
-## Expanding the ESLint configuration
+Or deploy it and see it live on [Vercel](#).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Interactive intro button to start the animation
+- Nighttime background with smooth flower growth animations
+- Multiple flowers with animated leaves and lights
+- Growing grass animations
+- Fully responsive and works in modern browsers
+
+---

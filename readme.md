@@ -8,7 +8,7 @@ This project is inspired by [Md Usman Ansari's CodePen](https://codepen.io/mdusm
 
 ## Demo
 
-![FlowersNight Demo](https://kj-flower-ui.vercel.app/)  
+[FlowersNight Demo](https://kj-flower-ui.vercel.app/)  
 *Replace with a live screenshot or GIF of your animation.*
 
 ---
